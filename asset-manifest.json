@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tawasoll/static/css/main.63bb3803.css",
-    "main.js": "/tawasoll/static/js/main.667120e8.js",
+    "main.js": "/tawasoll/static/js/main.fad380b9.js",
     "static/media/landing.jpg": "/tawasoll/static/media/landing.bdc46aa3abe4832b1f35.jpg",
     "index.html": "/tawasoll/index.html",
     "main.63bb3803.css.map": "/tawasoll/static/css/main.63bb3803.css.map",
-    "main.667120e8.js.map": "/tawasoll/static/js/main.667120e8.js.map"
+    "main.fad380b9.js.map": "/tawasoll/static/js/main.fad380b9.js.map"
   },
   "entrypoints": [
     "static/css/main.63bb3803.css",
-    "static/js/main.667120e8.js"
+    "static/js/main.fad380b9.js"
   ]
 }
