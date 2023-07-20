@@ -22,6 +22,7 @@ import { loadUser } from "./redux/modules/users";
 import Profile from "./components/Profile";
 import Settings from "./components/Settings";
 import Posts from "./components/Posts/Posts";
+import Post from "./components/Posts/Post";
 
 const options = {
   position: positions.TOP_RIGHT,
@@ -58,6 +59,7 @@ const App = () => {
               <Route exact path="/settings" element={<Private component={Settings}/>} />
               <Route exact path="/edit-profile" element={<Private component={ProfileForm}/>} />
               <Route exact path="/posts" element={<Private component={Posts}/>} />
+              <Route exact path="/posts/:id" element={<Private component={Post}/>} />
             </Routes>
           </Fragment>
         </AlertProvider>
