@@ -1,6 +1,6 @@
 import axios from "axios"
 
-export const serverUrl = "http://localhost:4000";
+export const serverUrl = "https://concerned-wasp-flannel-nightgown.cyclic.app";
 
 export const api = axios.create({
     baseURL: `${serverUrl}/api`,
